@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04426842037723300F0B484 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04426832037723300F0B484 /* QuestionViewController.swift */; };
 		D063D63F203231F500742955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063D63E203231F500742955 /* AppDelegate.swift */; };
 		D063D641203231F500742955 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063D640203231F500742955 /* ViewController.swift */; };
 		D063D644203231F500742955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D063D642203231F500742955 /* Main.storyboard */; };
 		D063D646203231F500742955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D063D645203231F500742955 /* Assets.xcassets */; };
 		D063D649203231F500742955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D063D647203231F500742955 /* LaunchScreen.storyboard */; };
 		D063D6512032372B00742955 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063D6502032372B00742955 /* CustomTableViewCell.swift */; };
+		D0657C4B2037BC020038BF6F /* FinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0657C4A2037BC020038BF6F /* FinishedViewController.swift */; };
+		D091C0C52037A71500B1E566 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D091C0C42037A71500B1E566 /* AnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D04426832037723300F0B484 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		D063D63B203231F500742955 /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D063D63E203231F500742955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D063D640203231F500742955 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		D063D648203231F500742955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D063D64A203231F500742955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D063D6502032372B00742955 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		D0657C4A2037BC020038BF6F /* FinishedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedViewController.swift; sourceTree = "<group>"; };
+		D091C0C42037A71500B1E566 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				D063D63E203231F500742955 /* AppDelegate.swift */,
 				D063D640203231F500742955 /* ViewController.swift */,
 				D063D642203231F500742955 /* Main.storyboard */,
+				D04426832037723300F0B484 /* QuestionViewController.swift */,
 				D063D6502032372B00742955 /* CustomTableViewCell.swift */,
 				D063D645203231F500742955 /* Assets.xcassets */,
 				D063D647203231F500742955 /* LaunchScreen.storyboard */,
 				D063D64A203231F500742955 /* Info.plist */,
+				D091C0C42037A71500B1E566 /* AnswerViewController.swift */,
+				D0657C4A2037BC020038BF6F /* FinishedViewController.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0657C4B2037BC020038BF6F /* FinishedViewController.swift in Sources */,
 				D063D6512032372B00742955 /* CustomTableViewCell.swift in Sources */,
 				D063D641203231F500742955 /* ViewController.swift in Sources */,
+				D091C0C52037A71500B1E566 /* AnswerViewController.swift in Sources */,
+				D04426842037723300F0B484 /* QuestionViewController.swift in Sources */,
 				D063D63F203231F500742955 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

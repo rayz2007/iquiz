@@ -2,7 +2,7 @@
 //  CustomTableViewCell.swift
 //  iQuiz
 //
-//  Created by Ray Zhang on 10/28/18.
+//  Created by Ray Zhang on 11/2/18.
 //  Copyright © 2018 Ray Zhang. All rights reserved.
 //
 
@@ -25,5 +25,6 @@ class CustomTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
+    
 }
