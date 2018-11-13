@@ -2,8 +2,8 @@
 //  DataSource.swift
 //  iQuiz
 //
-//  Created by Jerry Li on 2/18/18.
-//  Copyright © 2018 Jerry Li. All rights reserved.
+//  Created by Ray Zhang on 11/12/18.
+//  Copyright © 2018 Ray Zhang. All rights reserved.
 //
 
 import Foundation
